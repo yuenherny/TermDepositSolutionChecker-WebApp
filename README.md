@@ -4,7 +4,7 @@
 
 **Try it now**:\
 <a href="https://share.streamlit.io/yuenherny/termdepositsolutionchecker-webapp/main/webapp/streamlit_app.py">
-<img src="metadata/clickhere.png" width="90>
+<img src="metadata/clickhere.png" width="90">
 </a>
 
 ## Credit to:
