@@ -3,9 +3,9 @@
 # platform: win-64
 name: termdepositsolutionchecker-webapp
 dependencies:
-python=3.8
-matplotlib
-numpy
-pandas
-scikit-learn
-streamlit
+  - python=3.8
+  - matplotlib
+  - numpy
+  - pandas
+  - scikit-learn
+  - streamlit
