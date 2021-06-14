@@ -1,3 +1,21 @@
+"""
+Copyright (c) 2021 Yuen Hern Yu
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+   SPDX-License-Idenfier: Apache-2.0
+"""
+
 import streamlit as st
 from verify import *
 
@@ -15,7 +33,6 @@ st.sidebar.markdown("Made and maintained by [yuenherny](https://github.com/yuenh
 
 # candidate to upload answer in csv format
 uploaded_file = st.sidebar.file_uploader("Step 1: Upload your CSV here", type=['csv'])
-# uploaded_file = "../test/csvtest-100.csv"
 if uploaded_file is not None:
 
     verify_upload(uploaded_file)
