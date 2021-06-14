@@ -9,7 +9,7 @@ st.markdown("### This is a simple web app to check how good is your ML model on 
 st.markdown("To check your solution, just upload a CSV file **(without column headers!)** containing your test "
             "predictions using the widget at the sidebar. _Your CSV file should contain 13,564 predictions._")
 
-st.sidebar.markdown("Made and maintained by [yuenhernyu](https://github.com/yuenhernyu), for fun. "
+st.sidebar.markdown("Made for fun and maintained by [yuenhernyu](https://github.com/yuenhernyu), for fun. "
                     "If you encounter any issue, feel free to contact me at [LinkedIn](https://www.linkedin.com/in/yuenhernyu/) "
                     "or file an issue on the repository. ")
 
