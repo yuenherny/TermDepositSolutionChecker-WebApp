@@ -3,15 +3,15 @@ from verify import *
 
 # set the title of the web app
 st.title("Term Deposit Solution Checker")
-st.markdown("### This is a simple web app to check how good is your ML model on the test dataset from "
+st.markdown("### This is a simple web app to check how good your ML model is on the test dataset from "
             "[Term Deposit Prediction Dataset by Brajesh Mahopatra]"
             "(https://www.kaggle.com/brajeshmohapatra/term-deposit-prediction-data-set).")
 st.markdown("To check your solution, just upload a CSV file **(without column headers!)** containing your test "
             "predictions using the widget at the sidebar. _Your CSV file should contain 13,564 predictions._")
 
-st.sidebar.markdown("Made for fun and maintained by [yuenhernyu](https://github.com/yuenhernyu), for fun. "
-                    "If you encounter any issue, feel free to contact me at [LinkedIn](https://www.linkedin.com/in/yuenhernyu/) "
-                    "or file an issue on the repository. ")
+st.sidebar.markdown("Made and maintained by [yuenherny](https://github.com/yuenherny), for fun. "
+                    "If you encounter any issues, feel free to contact me at "
+                    "[LinkedIn](https://www.linkedin.com/in/yuenhernyu/) or file an issue at the repository. ")
 
 # candidate to upload answer in csv format
 uploaded_file = st.sidebar.file_uploader("Step 1: Upload your CSV here", type=['csv'])
