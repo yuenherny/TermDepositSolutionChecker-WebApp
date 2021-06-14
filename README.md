@@ -9,7 +9,7 @@
 </a>
 
 ## Credit to:
-1. [**Brajesh Mahopatra**](https://github.com/brajeshmohapatra) for the dataset hosted on Kaggle.
+1. [**Brajesh Mohapatra**](https://github.com/brajeshmohapatra) for the dataset hosted on Kaggle.
 
 2. [**The Streamlit team**](https://streamlit.io/) for the Streamlit framework and for making Python deployment easier.
 

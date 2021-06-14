@@ -1,5 +1,5 @@
 """
-Copyright (c) 2021 Yuen Hern Yu
+Copyright (c) 2021 Yuen Hern, Yu
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -13,7 +13,7 @@ Copyright (c) 2021 Yuen Hern Yu
    See the License for the specific language governing permissions and
    limitations under the License.
 
-   SPDX-License-Idenfier: Apache-2.0
+   SPDX-License-Identifier: Apache-2.0
 """
 
 import numpy as np

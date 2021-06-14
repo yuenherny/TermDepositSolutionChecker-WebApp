@@ -1,5 +1,5 @@
 """
-Copyright (c) 2021 Yuen Hern Yu
+Copyright (c) 2021 Yuen Hern, Yu
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -13,7 +13,7 @@ Copyright (c) 2021 Yuen Hern Yu
    See the License for the specific language governing permissions and
    limitations under the License.
 
-   SPDX-License-Idenfier: Apache-2.0
+   SPDX-License-Identifier: Apache-2.0
 """
 
 import streamlit as st
@@ -22,7 +22,7 @@ from verify import *
 # set the title of the web app
 st.title("Term Deposit Solution Checker")
 st.markdown("### This is a simple web app to check how good your ML model is on the test dataset from "
-            "[Term Deposit Prediction Dataset by Brajesh Mahopatra]"
+            "[Term Deposit Prediction Dataset by Brajesh Mohapatra]"
             "(https://www.kaggle.com/brajeshmohapatra/term-deposit-prediction-data-set).")
 st.markdown("To check your solution, just upload a CSV file **(without column headers!)** containing your test "
             "predictions using the widget at the sidebar. _Your CSV file should contain 13,564 predictions._")
