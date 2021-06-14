@@ -1,6 +1,7 @@
 # Validate Your ML Model Performance on Term Deposit Dataset from Kaggle
 
 ### This repository contains all the files for a ML prediction-checking web app.
+#### Actual solutions are shielded from the public using [Streamlit's secrets management](https://docs.streamlit.io/en/stable/deploy_streamlit_app.html#secrets-management).
 
 **Try it now**:\
 <a href="https://share.streamlit.io/yuenherny/termdepositsolutionchecker-webapp/main/webapp/streamlit_app.py">
