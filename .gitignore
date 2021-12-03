@@ -1,3 +1,4 @@
 .idea
 webapp/.streamlit
 test
+__pycache__
