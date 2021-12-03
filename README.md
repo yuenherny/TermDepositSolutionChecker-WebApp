@@ -45,6 +45,10 @@ and upload your prediction `.csv` file at the sidebar.
    - You need to create a `.streamlit` folder under `webapp` folder to store your secrets (aka your answers).
    - Your answers should be in a file named `secrets.toml` so that you can use Streamlit's secret management.
    
+   <p align="center">
+      <img src="metadata/TermDepoSol_ProjectStructure.png">
+   </p>
+   
 4. Your local repo should be ready for further modification.
 
 For detailed documentation, you may refer to my Medium 
