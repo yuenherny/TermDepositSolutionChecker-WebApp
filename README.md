@@ -13,7 +13,7 @@
 
 2. [**The Streamlit team**](https://streamlit.io/) for the Streamlit framework and for making Python deployment easier.
 
-## How to use this web app
+## How to use the web app
 
 1. Download the [Term Deposit Prediction Dataset](https://www.kaggle.com/brajeshmohapatra/term-deposit-prediction-data-set)
 from Kaggle. In the dataset, there are several files:
@@ -32,6 +32,23 @@ and upload your prediction `.csv` file at the sidebar.
 5. Check your prediction results - accuracy, precision, recall and F1-score.
 
 6. Share your work with the world!
+
+## How to use this repository
+
+1. You may choose to use Anaconda or Miniconda for environment setup. I used Miniconda for this project.
+
+2. Clone this project repo into your local.
+
+3. Before you can use this for your own project, you need to perform some manual steps.
+
+   - You need to create a `test` folder to store your example solution for testing the web app.
+   - You need to create a `.streamlit` folder under `webapp` folder to store your secrets (aka your answers).
+   - Your answers should be in a file named `secrets.toml` so that you can use Streamlit's secret management.
+   
+4. Your local repo should be ready for further modification.
+
+For detailed documentation, you may refer to my Medium 
+article [here](https://yuenherny.medium.com/developing-a-ml-model-performance-validation-web-app-using-streamlit-97eb70d8d31)
 
 
 
