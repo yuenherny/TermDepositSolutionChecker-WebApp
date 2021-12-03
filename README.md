@@ -49,12 +49,12 @@ and upload your prediction `.csv` file at the sidebar.
       <img src="metadata/TermDepoSol_ProjectStructure.png">
    </p>
    
-4. Your local repo should be ready for further modification.
+4. Now, your local repo should be ready for further modification.
 
 For detailed documentation, you may refer to my Medium 
 article [here](https://yuenherny.medium.com/developing-a-ml-model-performance-validation-web-app-using-streamlit-97eb70d8d31)
 
-
+Happy tweaking!
 
 <hr style="border:1px solid"> </hr>
 <p align="center">
