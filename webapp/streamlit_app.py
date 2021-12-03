@@ -19,7 +19,7 @@ Copyright (c) 2021 Yuen Hern, Yu
 import streamlit as st
 from verify import *
 
-# to run the app, use command "streamlit run streamlit_app.py"
+# to run the app, use command "streamlit run streamlit_app.py in the terminal"
 
 # set the title of the web app
 st.title("Term Deposit Solution Checker")
