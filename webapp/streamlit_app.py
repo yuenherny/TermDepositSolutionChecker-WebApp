@@ -19,13 +19,17 @@ Copyright (c) 2021 Yuen Hern, Yu
 import streamlit as st
 from verify import *
 
+# to run the app, use command "streamlit run streamlit_app.py"
+
 # set the title of the web app
 st.title("Term Deposit Solution Checker")
 st.markdown("### This is a simple web app to check how good your ML model is on the test dataset from "
             "[Term Deposit Prediction Dataset by Brajesh Mohapatra]"
             "(https://www.kaggle.com/brajeshmohapatra/term-deposit-prediction-data-set).")
 st.markdown("To check your solution, just upload a CSV file **(without column headers!)** containing your test "
-            "predictions using the widget at the sidebar. _Your CSV file should contain 13,564 predictions._")
+            "predictions using the widget at the sidebar. "
+            """_Your CSV file should contain 13,564 predictions with "no" as "0" and "yes" as "1"._""")
+st.markdown("Visit the [project GitHub repo](https://github.com/yuenherny/TermDepositSolutionChecker-WebApp) for more information.")
 
 st.sidebar.markdown("Made and maintained by [yuenherny](https://github.com/yuenherny), for fun. "
                     "If you encounter any issues, feel free to contact me at "
