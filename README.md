@@ -52,7 +52,7 @@ and upload your prediction `.csv` file at the sidebar.
 4. Now, your local repo should be ready for further modification.
 
 For detailed documentation, you may refer to my Medium 
-article [here](https://yuenherny.medium.com/developing-a-ml-model-performance-validation-web-app-using-streamlit-97eb70d8d31)
+article [here](https://yuenherny.medium.com/developing-a-ml-model-performance-validation-web-app-using-streamlit-97eb70d8d31).
 
 Happy tweaking!
 
